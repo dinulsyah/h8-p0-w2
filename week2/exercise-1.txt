@@ -1,0 +1,33 @@
+#1 Newton Second Law 
+—> read and stored massa benda as m
+—> read and stored percepatan benda as a
+—> read and stored gaya as F equals to zero
+—> set F equals to m times a
+—> display (F) plus “N” (string)
+Expected output of F : 1200 Newton
+
+#2 Tahun Kabisat
+—> read and stored tahun as year
+--> check value :
+	if year modulo by four equals to zero AND year modulo by hundred not equals to 0 then display “kabisat”
+	else if year modulo by four equals to zero AND year modulo by hundred equals to zero AND year modulo four hundreds equals to zero then display “kabisat”
+	else display “not kabisat”
+
+#3 Laundry day
+—> read and stored number of clothes as total to zero
+—> read and stored machine as power equals to null 
+—> check value:
+       for one until twenty:
+		total equals to total plus one
+		if total equals to twenty then set power equals to ‘on’
+			then display power
+		else power equals to ‘off’
+
+#4  Periksa kuku
+—> read and stored nail-condition as nail (values : good or bad)
+—> read and stored teacher as null
+—> check value:
+	for each student from first student until last student /* from one until fourty */	
+		if nail equals to ‘good’ then set teacher equals to “praise”
+ 		else set teacher equals to “penalty”
+		display teacher
